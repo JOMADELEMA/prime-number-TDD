@@ -6,18 +6,26 @@ A simple prime number verification using vanilla js and TDD with vitest.
 
 
 
+## Tech Stack
+
+**Client:** HTML, CSS, Javascript
+
+**Tests:** Vitest
+
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/JOMADELEMA/prime-number-TDD.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd prime-number-TDD
 ```
 
 Install dependencies
@@ -57,5 +65,6 @@ On road to full stack web developer
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jomadelema.github.io/react-portfolio/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jomadelema
 )
+
 
 
