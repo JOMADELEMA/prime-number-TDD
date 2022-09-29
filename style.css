@@ -1,0 +1,101 @@
+/* --yale-blue: #084b83ff;
+--blue-ncs: #2585b0ff;
+--maximum-blue: #5fb0cdff;
+--sky-blue: #7cc6dcff;
+--non-photo-blue: #99dbeaff;
+--azure-x-11-web-color: #dbf0f3ff;
+--cultured: #f0f6f6ff; 
+font-family: "Didact Gothic";*/
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Didact Gothic";
+  background-color: #f0f6f6;
+  color: #084b83ff;
+}
+
+html {
+  background-color: #f0f6f6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  text-align: center;
+  font-size: xx-large;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.text-input {
+  font-family: "Didact Gothic";
+  width: 33%;
+  height: 45px;
+  border-radius: 2px;
+  color: #084b83;
+  background-color: #f0f6f6;
+  box-shadow: 0 5px 15px rgba(209, 209, 209, 0.514);
+  margin-bottom: 25px;
+  padding-left: 25px;
+  outline: none;
+  border: solid #084b83 1px;
+  font-size: 1.2rem;
+}
+
+.validate-button {
+  font-family: "Didact Gothic";
+  height: 40px;
+  width: 150px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #2585b0;
+  color: #f0f6f6;
+  cursor: pointer;
+}
+
+.validate-button:hover {
+  background-color: #5fb0cdff;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: #084c8321;
+  position: absolute;
+  top: 0;
+}
+
+.modal-bg {
+  background-color: #f0f6f6;
+  width: 50%;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.modal-text {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.invisible {
+  visibility: hidden;
+}

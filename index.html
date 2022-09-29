@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Numbers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact Gothic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-container">Check if input is a Prime Number</div>
+      <input
+        id="text-input"
+        class="text-input"
+        type="text"
+        placeholder="Enter a positive number."
+      />
+      <button class="validate-button" id="validate-button">Verify Prime</button>
+    </div>
+    <div class="modal container-center invisible" id="modal">
+      <div class="modal-bg container-center">
+        <div class="modal-text" id="modal-text">
+          The result must be shown here!
+        </div>
+        <button class="validate-button" id="modal-button">Close</button>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
