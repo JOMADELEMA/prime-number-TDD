@@ -13,6 +13,11 @@ A simple prime number verification using vanilla js and TDD with vitest.
 **Tests:** Vitest
 
 
+## Demo
+
+https://jomadelema.github.io/prime-number-TDD/
+
+
 
 ## Run Locally
 
