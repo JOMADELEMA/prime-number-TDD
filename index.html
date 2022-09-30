@@ -13,24 +13,30 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="text-container">Check if input is a Prime Number</div>
+    <main class="container">
+      <button class="instructions" id="button-instructions">i</button>
+        <div class="text-container">
+          Verify if number is a Prime Number
+
+        </div>
+    
       <input
         id="text-input"
         class="text-input"
         type="text"
-        placeholder="Enter a positive number."
+        placeholder="Enter a positive number"
       />
       <button class="validate-button" id="validate-button">Verify Prime</button>
-    </div>
-    <div class="modal container-center invisible" id="modal">
-      <div class="modal-bg container-center">
-        <div class="modal-text" id="modal-text">
-          The result must be shown here!
+      <div class="modal container-center invisible" id="modal">
+        <div class="modal-bg container-center" id="modal-content">
+          <div class="modal-title" id="modal-title"></div>
+          <div class="modal-text" id="modal-text">
+            The result must be shown here!
+          </div>
+          <button class="validate-button" id="modal-button">Close</button>
         </div>
-        <button class="validate-button" id="modal-button">Close</button>
       </div>
-    </div>
+    </main>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

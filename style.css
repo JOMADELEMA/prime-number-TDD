@@ -16,10 +16,6 @@ html {
   color: #084b83ff;
 }
 
-html {
-  background-color: #f0f6f6;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -39,7 +35,7 @@ html {
 
 .text-container {
   text-align: center;
-  font-size: xx-large;
+  font-size: 2rem;
   width: 50%;
   margin-bottom: 25px;
 }
@@ -77,25 +73,73 @@ html {
 .modal {
   width: 100vw;
   height: 100vh;
-  background-color: #084c8321;
+  background-color: #084c830c;
+  /* border: solid black 1px; */
   position: absolute;
-  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-bg {
+  /* border: solid black; */
   background-color: #f0f6f6;
+
   width: 50%;
   height: 25%;
+  min-height: 350px;
   border-radius: 5px;
 }
 
-.modal-text {
+.modal-bg-big {
+  /* border:solid black; */
+  background-color: #f0f6f6;
+  width: 80%;
+  height: 80%;
+  min-height: 350px;
+  border-radius: 5px;
+}
+
+.modal-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 15px;
   padding: 10px;
 }
 
+.modal-text {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.modal-text-instructions {
+  /* text-align: start; */
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding: 50px;
+}
+
 .invisible {
   visibility: hidden;
+}
+
+.instructions {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #2585b0;
+  color: #f0f6f6;
+}
+
+.instructions:hover {
+background-color: #5fb0cdff;
 }
