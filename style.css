@@ -73,7 +73,7 @@ html {
 .modal {
   width: 100vw;
   height: 100vh;
-  background-color: #084c830c;
+  background-color: #084c8328;
   /* border: solid black 1px; */
   position: absolute;
   top: 50%;
@@ -149,4 +149,68 @@ background-color: #5fb0cdff;
   position: absolute;
   top: 0;
   left:0;
+}
+
+@media (min-width: 320px) {
+    .logo{
+      width: 150px;
+      /* border: solid black 1px; */
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -100%);
+    }
+
+    .text-container {
+      font-size: 1.1rem;
+      /* border: solid red 1px; */
+      width: 90%;
+    }
+
+    .text-input {
+      width: 90%;
+      height: 30px;
+      font-size: 1.1rem;
+    }
+
+    .validate-button{
+      width: 130px;
+      height: 30px;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    .modal-bg{
+      width: 90%;
+    }
+
+    .modal-bg-big {
+      height: 100vh;
+      width: 100vw;
+      /* padding: 10px; */
+      overflow: auto;
+    }
+
+    .modal-title {
+      font-size: 1.3rem;
+      margin-bottom: 0px;
+      /* border: solid green 1px; */
+    }
+
+    .modal-text{
+      font-size: 1.1rem;
+    }
+    
+    .modal-text-instructions {
+      /* border: solid red 1px; */
+      padding: 0;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+
+    .instructions{
+      font-size: 1.4rem;
+      width: 45px;
+      height: 45px;
+    }
 }
