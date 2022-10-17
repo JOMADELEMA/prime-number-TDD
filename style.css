@@ -151,7 +151,7 @@ background-color: #5fb0cdff;
   left:0;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 420px) {
     .logo{
       width: 150px;
       /* border: solid black 1px; */
@@ -213,4 +213,66 @@ background-color: #5fb0cdff;
       width: 45px;
       height: 45px;
     }
+}
+
+
+@media (max-width: 744px){
+  .logo{
+    width: 200px;
+
+  }
+
+  .text-container {
+    font-size: 1.5rem;
+    /* border: solid red 1px; */
+    width: 90%;
+  }
+
+  .text-input {
+    width: 70%;
+    height: 30px;
+    font-size: 1.3rem;
+  }
+
+  .validate-button{
+    width: 140px;
+    height: 40px;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+  }
+
+  .modal-bg{
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .modal-bg-big {
+    height: 100vh;
+    width: 100vw;
+    /* padding: 10px; */
+    overflow: auto;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    /* border: solid green 1px; */
+  }
+
+  .modal-text{
+    font-size: 1.4rem;
+  }
+  
+  .modal-text-instructions {
+    /* border: solid red 1px; */
+    padding: 0;
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+
+  .instructions{
+    font-size: 1.6rem;
+    width: 50px;
+    height: 50px;
+  }
 }
